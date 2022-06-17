@@ -34,7 +34,7 @@ function customUseFetch(arg) {
 
 
 
-  return { data, loading, error, refetch }
+  return ([data, loading, error, refetch])
 }
 
 export default customUseFetch

@@ -2,7 +2,7 @@ import React from 'react'
 import customUseFetch from './customUseFetch'
 
 function CallOnFetch() {
-    const{ data, loading, error, refetch } = customUseFetch("https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit")
+    const [data, loading, error, refetch] = customUseFetch("https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit")
 
     if(loading)
         return <h1 className="flex justify-center align-center animate-spin rounded-full h-32 w-32 border-b-2 border-[#2952e3]"></h1>

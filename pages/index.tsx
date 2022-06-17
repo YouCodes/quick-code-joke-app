@@ -3,8 +3,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import customUseFetch from './customUseFetch'
 import CallOnFetch from './CallOnFetch'
+import axios from 'axios'
 
 const Home: NextPage = () => {
+
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
