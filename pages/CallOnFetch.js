@@ -13,7 +13,7 @@ function CallOnFetch() {
     }
     return (
     <div>
-        <h1 className="text-6xl font-bold">{data?.setup} {' '}
+        <h1 className="text-6xl font-bold">{data?.setup}
      </h1>
      {/* react 18.1 issue overlapping h1 no longer work */}
      {/* error will say: runtime error hydration... */}
